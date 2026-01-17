@@ -1,10 +1,12 @@
 @charset "UTF-8";
 
+/*Общие стили*/
 * {
 	font-size: medium;
     margin: auto;
     padding: 0;
     box-sizing: border-box;
+    overflow: auto;
 }
 
 :root {
@@ -27,6 +29,7 @@ body {
     text-align: center;
 }
 
+/*Классовые стили для всей страницы*/
 li {
     width: fit-content;	
 }
@@ -51,6 +54,49 @@ p {
 
 .container {
     padding: 0 2.5vw;
+}
+
+/*Специальные стили для контента*/
+.axiom {
+	color: #008000;
+	font-weight: bold;
+}
+
+.theorem {
+    color: #FF0000;
+    font-weight: bold;
+}
+
+.definition {
+    color: #42AAFF;
+    font-weight: bold;
+}
+
+.formula {
+    color: #8B00FF;
+    font-weight: bold;
+}
+
+.lemma {
+    color: #FFA500;
+    font-weight: bold;
+}
+
+.theorem-corollary {
+    color: #912a2d;
+    font-weight: bold;
+}
+
+.picture {
+    max-width: 92vw;
+}
+
+.picture-wrapper {
+	margin-left: 1vw;
+    margin-right: 1vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    max-width: 92vw;
 }
 
 /* Главный блок */
