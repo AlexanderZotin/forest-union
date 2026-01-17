@@ -1,0 +1,373 @@
+@charset "UTF-8";
+
+* {
+	font-size: medium;
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #2e7d32;
+    --primary-dark: #1b5e20;
+    --primary-light: #4caf50;
+    --text: #333;
+    --text-light: #666;
+    --bg: #f8f9fa;
+    --white: #ffffff;
+    --shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    --radius: 8px;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: var(--text);
+    background-color: var(--bg);
+    line-height: 1.5;
+    text-align: center;
+}
+
+li {
+    width: fit-content;	
+}
+
+.left-align-list, .left-align-list > li {
+	list-style: disc;	
+	padding: 0px;
+	margin: 0px;
+	width: fit-content;
+	text-align: left !important;
+    max-width: 85vw;
+}
+
+.left-align-list {
+   margin-left: 5vw;	
+}
+
+p {
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.container {
+    padding: 0 2.5vw;
+}
+
+/* Главный блок */
+#main-logo {
+   border-radius: 50%;
+   display: inline-block;
+   margin: auto;
+   aspect-ratio: 1 / 1;
+   width: min(70vw, 40vh);	
+}
+
+.hero {
+    background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%);
+    padding: 60px 0;
+    text-align: center;
+}
+
+.hero-title {
+    font-size: 2.2rem;
+    color: var(--primary-dark);
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.hero-text {
+    color: var(--text-light);
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Секции */
+.section {
+    padding: 45px 0;
+}
+
+.section-title {
+    font-size: 2rem;
+    color: var(--primary-dark);
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.section-subtitle {
+    text-align: center;
+    color: var(--text-light);
+    margin-bottom: 40px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* О нас */
+#about > * {
+    text-align: left !important;	
+}
+
+.about-content {
+    margin: 0 auto;
+}
+
+.about-content p:last-child {
+    margin-bottom: 0;
+}
+
+/* Проекты */
+.projects {
+    background-color: #f1f8e9;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.project-card {
+    background-color: var(--white);
+    border-radius: var(--radius);
+    padding: 30px;
+    box-shadow: var(--shadow);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.project-icon {
+    width: 60px;
+    height: 60px;
+    background-color: #e8f5e9;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: var(--primary);
+    font-size: 1.5rem;
+}
+
+.project-card h3 {
+    font-size: 1.5rem;
+    color: var(--primary-dark);
+    margin-bottom: 15px;
+}
+
+.project-card p {
+    color: var(--text-light);
+    margin-bottom: 20px;
+}
+
+.project-stats {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--primary);
+    font-weight: 500;
+}
+
+.project-stats i {
+    margin-right: 5px;
+}
+
+.projects-note {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--white);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    font-style: italic;
+    color: var(--text-light);
+}
+
+/* Контакты */
+.contact-content {
+    max-width: 425px;
+    margin: 0 auto;
+}
+
+.contact-item {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    padding: 25px;
+    border-radius: var(--radius);
+    margin-bottom: 20px;
+    background-color: var(--white);
+    box-shadow: var(--shadow);
+}
+
+.contact-icon {
+	aspect-ratio: 1 / 1;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(135deg, var(--primary-light), var(--primary-dark));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.3rem;
+    flex-shrink: 0;
+}
+
+.contact-item h3 {
+    font-size: 1.3rem;
+    color: var(--primary-dark);
+    margin-bottom: 5px;
+}
+
+.contact-item p {
+    color: var(--text-light);
+    margin-bottom: 10px;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    .contact-item {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .contact-item > div {
+        text-align: center;
+    }
+}
+
+.outer-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    color: var(--primary);
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.contact-link:hover {
+    color: var(--primary-dark);
+}
+
+.contact-links {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.contact-links a {
+    color: var(--primary);
+    transition: color 0.3s;
+}
+
+.contact-links a:hover {
+    color: var(--primary-dark);
+    text-decoration: underline;
+}
+
+/* Подвал */
+.footer {
+    background-color: var(--primary-dark);
+    color: white;
+    padding: min(6vh, 6vw);
+    line-height: 1.5;
+}
+
+.footer > * {
+    display: inline-block;
+    vertical-align: middle;	
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-right: min(2vh, 2vw);
+}
+
+.footer-social a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    color: white;
+    font-size: 1.2rem;
+    transition: background-color 0.3s;
+}
+
+.footer-social a:hover {
+    background-color: var(--primary-light);
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    .header .container {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+    
+    .logo {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .nav {
+        gap: 20px;
+    }
+    
+    .hero-title {
+        font-size: 1.8rem;
+    }
+    
+    .section-title {
+        font-size: 1.7rem;
+    }
+    
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .contact-item {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-title {
+        font-size: 1.5rem;
+    }
+    
+    .section-title {
+        font-size: 1.5rem;
+    }
+    
+    .nav {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
