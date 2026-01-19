@@ -88,15 +88,18 @@ p {
 }
 
 .picture {
-    max-width: 92vw;
+    max-width: 88vw;
 }
 
 .picture-wrapper {
 	margin-left: 1vw;
     margin-right: 1vw;
-    margin-top: 1vh;
-    margin-bottom: 1vh;
-    max-width: 92vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    max-width: vw;
+    border: min(0.5vh, 0.5vw) black dotted;
+    border-radius: 3%;
+    padding: 1vw;
 }
 
 /* Главный блок */
