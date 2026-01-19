@@ -88,7 +88,7 @@ p {
 }
 
 .picture {
-    max-width: 88vw;
+    max-width: 90vw;
 }
 
 .picture-wrapper {
@@ -96,7 +96,6 @@ p {
     margin-right: 1vw;
     margin-top: 2vh;
     margin-bottom: 2vh;
-    max-width: vw;
     border: min(0.5vh, 0.5vw) black dotted;
     border-radius: 3%;
     padding: 1vw;
