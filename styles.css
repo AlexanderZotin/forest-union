@@ -87,18 +87,38 @@ p {
     font-weight: bold;
 }
 
-.picture {
-    max-width: 90vw;
+.thesis {
+	display: block;
+	min-width: min(35vw, 275px);
 }
 
 .picture-wrapper {
-	margin-left: 1vw;
+    display: table;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 1vw;
     margin-right: 1vw;
     margin-top: 2vh;
     margin-bottom: 2vh;
     border: min(0.5vh, 0.5vw) black dotted;
     border-radius: 3%;
     padding: 1vw;
+}
+
+.picture {
+    display: block;
+    max-width: 88vw;
+}
+
+figcaption {
+    display: table-caption;
+    caption-side: bottom;
+    width: 0; /* Минимальная ширина */
+    min-width: 100%; /* Но не меньше ширины таблицы (картинки) */
+    text-align: center;
+    margin-top: 8px;
+    word-wrap: break-word;
+    box-sizing: border-box;
 }
 
 /* Главный блок */
