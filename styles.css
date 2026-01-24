@@ -92,6 +92,16 @@ p {
 	min-width: min(35vw, 275px);
 }
 
+.separator {
+	clear:both; 
+}
+
+@media(orientation: portrait) {
+	.separator {
+	    height: 1.75vh;
+	}
+}
+
 .picture-wrapper {
     display: table;
     width: fit-content;
@@ -158,8 +168,9 @@ figcaption {
     font-size: 2rem;
     color: var(--primary-dark);
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 3vh;
     font-weight: 600;
+    width: 100%;
 }
 
 .section-subtitle {
