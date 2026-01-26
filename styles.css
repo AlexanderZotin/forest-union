@@ -168,6 +168,7 @@ figcaption {
     font-size: 2rem;
     color: var(--primary-dark);
     text-align: center;
+    margin-top: 1vh;
     margin-bottom: 3vh;
     font-weight: 600;
     width: 100%;
