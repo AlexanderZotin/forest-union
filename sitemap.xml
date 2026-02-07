@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <!-- ===== ГЛАВНЫЙ САЙТ ОБЪЕДИНЕНИЯ ===== -->
+  
+  <!-- Главная страница объединения -->
+  <url>
+    <loc>https://alexanderzotin.github.io/forest-union/index.html</loc>
+    <lastmod>2025-02-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>https://alexanderzotin.github.io/forest-union/</loc>
+    <lastmod>2025-02-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <!-- ===== ПРОЕКТ ГЕОМЕТРИКА ===== -->
+  
+  <!-- Содержание Геометрики -->
+  <url>
+    <loc>https://alexanderzotin.github.io/forest-union/geometrics/summary.html</loc>
+    <lastmod>2025-02-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Структура сборника -->
+  <url>
+    <loc>https://alexanderzotin.github.io/forest-union/geometrics/structure.html</loc>
+    <lastmod>2025-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- ===== 7 КЛАСС ===== -->
+  
+  <!-- Введение в геометрию -->
+  <url>
+    <loc>https://alexanderzotin.github.io/forest-union/geometrics/7th-class/introduction-to-geometry.html</loc>
+    <lastmod>2025-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Углы -->
+  <url>
+    <loc>https://alexanderzotin.github.io/forest-union/geometrics/7th-class/angles.html</loc>
+    <lastmod>2025-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Перпендикулярность -->
+  <url>
+    <loc>https://alexanderzotin.github.io/forest-union/geometrics/7th-class/perpendicularity.html</loc>
+    <lastmod>2025-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Треугольники -->
+  <url>
+    <loc>https://alexanderzotin.github.io/forest-union/geometrics/7th-class/triangles.html</loc>
+    <lastmod>2025-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Признаки равенства треугольников -->
+  <url>
+    <loc>https://alexanderzotin.github.io/forest-union/geometrics/7th-class/signs-of-triangles-equality.html</loc>
+    <lastmod>2025-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+</urlset>
