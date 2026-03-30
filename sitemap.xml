@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <!----------------------------------Home page---------------------------------->
+    <!---Home page-->
     <url>
         <loc>https://alexanderzotin.github.io/forest-union/</loc>
         <lastmod>2025-03-30</lastmod>
@@ -8,7 +8,7 @@
         <priority>1.0</priority>
     </url>
   
-    <!------------------------------------"Геометрика" project------------------------------------>
+    <!--"Геометрика" project-->
     <url>
         <loc>https://alexanderzotin.github.io/forest-union/geometrics/summary.html</loc>
         <lastmod>2025-03-30</lastmod>
@@ -22,7 +22,7 @@
         <priority>0.7</priority>
     </url>
   
-    <!------------------------------------7th class------------------------------------>
+    <!--7th class-->
     <url>
     <loc>https://alexanderzotin.github.io/forest-union/geometrics/7th-class/introduction-to-geometry.html</loc>
         <lastmod>2025-03-30</lastmod>
@@ -64,6 +64,5 @@
         <lastmod>2025-03-30</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-    </url>
     </url>
 </urlset>
