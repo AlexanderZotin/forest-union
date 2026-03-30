@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!----------------------------------Home page---------------------------------->
+    <url>
+        <loc>https://alexanderzotin.github.io/forest-union/</loc>
+        <lastmod>2025-03-30</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+  
+    <!------------------------------------"Геометрика" project------------------------------------>
+    <url>
+        <loc>https://alexanderzotin.github.io/forest-union/geometrics/summary.html</loc>
+        <lastmod>2025-03-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://alexanderzotin.github.io/forest-union/geometrics/structure.html</loc>
+        <lastmod>2025-03-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+  
+    <!------------------------------------7th class------------------------------------>
+    <url>
+    <loc>https://alexanderzotin.github.io/forest-union/geometrics/7th-class/introduction-to-geometry.html</loc>
+        <lastmod>2025-03-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+    <loc>https://alexanderzotin.github.io/forest-union/geometrics/7th-class/angles.html</loc>
+        <lastmod>2025-03-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+    <loc>https://alexanderzotin.github.io/forest-union/geometrics/7th-class/perpendicularity.html</loc>
+        <lastmod>2025-03-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+    <loc>https://alexanderzotin.github.io/forest-union/geometrics/7th-class/triangles.html</loc>
+        <lastmod>2025-03-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+    <loc>https://alexanderzotin.github.io/forest-union/geometrics/7th-class/signs-of-triangles-equality.html</loc>
+        <lastmod>2025-03-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+    <loc>https://alexanderzotin.github.io/forest-union/geometrics/7th-class/isosceles-and-equilateral-triangles.html</loc>
+        <lastmod>2025-03-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+    <loc>https://alexanderzotin.github.io/forest-union/geometrics/7th-class/relative-position-of-straight-lines.html</loc>
+        <lastmod>2025-03-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    </url>
+</urlset>

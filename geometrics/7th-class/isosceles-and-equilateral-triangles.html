@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Равнобедренные и равносторонние треугольники | "Геометрика"</title>
+    <link rel="stylesheet" href="./../../styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <main class="main-content">
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <img src = "./../../images/logo-img.jpg" id = "main-logo">
+                    <h1 class="hero-title">Равнобедренные и равносторонние (правильные) треугольники</h1>
+                    <p class="hero-text">Особые треугольники со своими особыми свойствами.</p><br>
+                    <p>Создано <a class = "outer-link" href = "https://alexanderzotin.github.io/forest-union">объединением "Лес"<i class="fas fa-external-link-alt"></i></a></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section about">
+            <div class="container">
+                <div class="about-content">
+                    <span class = "thesis"><span class = "definition">Определение 23:</span> 
+                    Равнобедренный треугольник — это треугольник, у которого две стороны равны.</span>
+                    <span class = "thesis"><span class = "definition">Определение 24:</span> 
+                    Равносторонний (правильный) треугольник — это треугольник, у которого все три стороны равны.</span>
+                    <span class = "thesis"><i>Примечание: понятия "равносторонний треугольник" и "правильный треугольник" означают одно и то же.</i></span>
+                    <figure class = "picture-wrapper" style = "float: left;">
+                       <img class = "picture" src="./../../images/geometrics/7th-class/picture-18.png">
+                       <figcaption>
+                           Рис. 18. △ABC — разносторонний (AB ≠ BC, AB ≠ AC, BC ≠ AC); △DEF — равнобедренный (DE = EF); △GHI — равносторонний (GH = HI = IG).
+                       </figcaption>
+                    </figure>
+                    <figure class = "picture-wrapper" style = "float: left;">
+                       <img class = "picture" src="./../../images/geometrics/7th-class/picture-19.png">
+                       <figcaption>
+                           Рис. 19. В равнобедренном △ABC: AB и BC — боковые стороны; AC — основание; ∠BAC и ∠BCA — углы при основании.
+                       </figcaption>
+                    </figure>
+                    <div class = "separator"></div>
+                    <span class = "thesis"><span class = "theorem">Теорема 19:</span> 
+                    В равнобедренном треугольнике углы при основании равны.</span>
+                    <figure class = "picture-wrapper" style = "float: left;">
+                       <img class = "picture" src="./../../images/geometrics/7th-class/picture-20.png">
+                       <figcaption>
+                           Рис. 20 к обоснованию теоремы 19 и к теореме 20.
+                       </figcaption>
+                    </figure>
+                    <span class = "thesis"><u><strong>Обоснование теоремы</strong></u></span>
+                    <span class = "thesis">Дано: △ABC — равнобедренный.</span>
+                    <span class = "thesis">Доказать: ∠1 = ∠2.</span>
+                    <span class = "thesis">Доказательство:</span>
+                    <span class = "thesis">Сделаем дополнительное построение — проведём биссектрису AD.</span>
+                    <span class = "thesis">Рассмотрим △BDA и △CDA:</span>
+                    <span class = "thesis">1. Сторона AD — общая.</span>
+                    <span class = "thesis">2. BA = AC (как боковые стороны равнобедренного треугольника).</span>
+                    <span class = "thesis">3. ∠3 = ∠4 (AD — биссектриса).</span>
+                    Из пунктов 1—3 следует, что △BDA = △CDA (по двум сторонам и углу между ними). 
+                    В равных треугольниках соответствующие углы равны, то есть ∠1 = ∠2, что и требовалось доказать.
+                    <div class = "separator"></div>
+                    <span class = "thesis"><span class = "theorem">Теорема 20:</span> 
+                    В равнобедренном треугольнике высота, биссектриса и медиана, 
+                    <u>проведенные к основанию равнобедренного треугольника</u>, совпадают.
+                    <i>Пояснение: на рисунке 20 отрезок [AD] является и высотой, и биссектрисой, и медианой одновременно.</i>
+                    </span>
+                    <span class = "thesis"><span class = "theorem">Теорема 21:</span> 
+                    Если боковая сторона и угол между боковыми сторонами одного равнобедренного треугольника равны боковой стороне и углу между боковыми сторонами другого равнобедренного треугольника, то такие треугольники равны.</span>
+                    <figure class = "picture-wrapper" style = "float: left;">
+                       <img class = "picture" src="./../../images/geometrics/7th-class/picture-21.png">
+                       <figcaption>
+                           Рис. 21 к теореме 21 и её обоснованию.
+                       </figcaption>
+                    </figure>
+                    <span class = "thesis"><u><strong>Обоснование теоремы</strong></u></span>
+                    <span class = "thesis">Дано: △ABC и △MNK — равнобедренные (AB = AC, MN = MK); AB = MN; ∠BAC = ∠NMK.</span>
+                    <span class = "thesis">Доказать: △ABC = △MKN.</span>
+                    <span class = "thesis">Доказательство:</span>
+                    <span class = "thesis">1. AB = MN (по условию).</span>
+                    <span class = "thesis">2. AC = AB, MK = MN, значит AC = MK.</span>
+                    <span class = "thesis">3. ∠BAC = ∠NMK — по условию.</span>
+                    Из пунктов 1—3 следует, что △ABC = △MKN (по двум сторонам и углу между ними), 
+                    что и требовалось доказать.
+                    <div class = "separator"></div>
+                    <span class = "thesis"><span class = "theorem">Теорема 22:</span> 
+                    Биссектрисы равнобедренного треугольника, проведённые из углов при основании, равны.
+                    </span>
+                    <span class = "thesis"><span class = "theorem">Теорема 23:</span> 
+                    Медианы равнобедренного треугольника, проведённые к боковым сторонам, равны.
+                    </span>
+                    <span class = "thesis"><span class = "theorem">Теорема 24:</span> 
+                    Высоты равнобедренного треугольника, проведённые к боковым сторонам, равны.
+                    </span>
+                    <span class = "thesis"><span class = "theorem">Теорема 25:</span> 
+                    Биссектрисы в равностороннем (правильном) треугольнике равны.
+                    </span>
+                    <span class = "thesis"><span class = "theorem">Теорема 26:</span> 
+                    Медианы в равностороннем (правильном) треугольнике равны.
+                    </span>
+                    <span class = "thesis"><span class = "theorem">Теорема 27:</span> 
+                    Высоты в равностороннем (правильном) треугольнике равны.
+                    </span>
+                    <h2 class = "section-title">Признаки равнобедренного треугольника</h2>
+                    <span class = "thesis"><span class = "theorem">Теорема 28:</span> 
+                    Если медиана и высота треугольника совпадают, то этот треугольник — равнобедренный.
+                    </span>
+                    <span class = "thesis"><span class = "theorem">Теорема 29:</span> 
+                    Если биссектриса и высота треугольника совпадают, то этот треугольник — равнобедренный.
+                    </span>
+                    <span class = "thesis"><span class = "theorem">Теорема 30:</span> 
+                    Если медиана и биссектриса треугольника совпадают, то этот треугольник — равнобедренный.
+                    </span>
+                    <span class = "thesis"><span class = "theorem">Теорема 31:</span> 
+                    Если в треугольнике два угла равны, то этот треугольник — равнобедренный.
+                    </span>
+                    <span class = "thesis"><span class = "theorem">Теорема 32:</span> 
+                    Если две медианы треугольника равны, то этот треугольник — равнобедренный.
+                    </span>
+                     <span class = "thesis"><span class = "theorem">Теорема 33:</span> 
+                    Если две биссектрисы треугольника равны, то этот треугольник — равнобедренный.
+                    </span>
+                     <span class = "thesis"><span class = "theorem">Теорема 34:</span> 
+                    Если две высоты треугольника равны, то этот треугольник — равнобедренный.
+                    </span>
+                    
+                    <h2 class = "section-title">Признаки равностороннего (правильного) треугольника</h2>
+                    <span class = "thesis"><span class = "theorem">Теорема 35:</span> 
+                    Если в треугольнике все три угла равны, то этот треугольник — равносторонний (правильный).
+                    </span>
+                    <span class = "thesis"><span class = "theorem">Теорема 36:</span> 
+                    Если все три медианы треугольника равны, то этот треугольник — равносторонний (правильный).
+                    </span>
+                     <span class = "thesis"><span class = "theorem">Теорема 37:</span> 
+                    Если все три биссектрисы треугольника равны, то этот треугольник — равносторонний (правильный).
+                    </span>
+                     <span class = "thesis"><span class = "theorem">Теорема 38:</span> 
+                    Если все три высоты треугольника равны, то этот треугольник — равносторонний (правильный).
+                    </span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="info-items-note">
+        <p><a href = "https://alexanderzotin.github.io/forest-union/geometrics/summary" class = "outer-link">Назад к содержанию <i class="fas fa-external-link-alt"></i></a></p><br>
+        <p>Нашли ошибку или неточность? Сообщите нам! Контакты можно найти на <a class = "outer-link" href="https://alexanderzotin.github.io/forest-union">главной странице <i class="fas fa-external-link-alt"></i></a>.</p>
+    </div>
+                
+    <!-- Подвал -->
+    <footer class="footer">
+        <img src="./../../images/logo-img.jpg">
+        <span class="footer-social">
+            <a href="https://t.me/forest_with_dwarf" target="_blank" aria-label="Telegram" style = "text-decoration: none;">
+                <i class="fab fa-telegram"></i>
+            </a>
+        </span>
+        <br><br>
+       Объединение "Лес", © 2025 — 2026
+    </footer>
+</body>
+</html>
