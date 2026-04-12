@@ -6,7 +6,6 @@
     margin: auto;
     padding: 0px;
     box-sizing: border-box;
-    overflow-y: auto;
 }
 
 :root {
@@ -26,8 +25,25 @@
     text-align: center;
 }
 
+ul {
+    list-style: none !important;
+    margin: auto !important;
+    padding: 0px !important;
+    display: inline-block !important;
+    text-align: left !important;
+}
+
 li {
-    width: fit-content;	
+    display: block !important;
+    margin: 0.3em 0 !important;
+    padding-left: 1.2em !important;
+    position: relative !important;
+}
+
+li::before {
+    content: "•" !important;
+    position: absolute !important;
+    left: 0 !important;
 }
 
 .left-align-list, .left-align-list > li {
@@ -44,12 +60,14 @@ li {
 }
 
 .outer-link {
-    display: inline-flex;
-    align-items: center;
-    gap: 5px;
     color: var(--primary);
     font-weight: 500;
     transition: color 0.3s;
+}
+
+.outer-link > * {
+    display: inline-block;
+    vertical-align: middle;	
 }
 
 p {
@@ -170,15 +188,23 @@ figcaption {
 
 /*---------------------------Sections styles---------------------------*/
 .section {
-    padding: 45px 0;
+    padding: 45px 0px;
+    overflow-y: auto;
 }
 
 .section-title {
     font-size: 2rem;
-    color: var(--primary-dark);
+    margin-bottom: 3vh;
+}
+
+.h3-section-title {
+    font-size: 1.5rem;
+}
+
+.section-title, .h3-section-title {
+	color: var(--primary-dark);
     text-align: center !important;
     margin-top: 1vh;
-    margin-bottom: 3vh;
     font-weight: 600;
     width: 100%;
 }
@@ -339,6 +365,10 @@ figcaption {
     .section-title {
         font-size: 1.5rem;
     }
+    
+    .h3-section-title {
+        font-size: 1.13rem;
+    }
 }
 
 @media (max-width: 768px) {
@@ -348,6 +378,10 @@ figcaption {
     
     .section-title {
         font-size: 1.7rem;
+    }
+    
+    .h3-section-title {
+        font-size: 1.28rem;
     }
     
     .info-items-grid {
