@@ -205,8 +205,9 @@ figcaption {
 	color: var(--primary-dark);
     text-align: center !important;
     margin-top: 1vh;
+    clear: both;
     font-weight: 600;
-    width: 100%;
+    width: 100% !important;
 }
 
 .section-subtitle {
