@@ -3,7 +3,7 @@
     <!--Home page-->
     <url>
         <loc>https://alexanderzotin.github.io/forest-union/</loc>
-        <lastmod>2025-04-08</lastmod>
+        <lastmod>2025-04-12</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
@@ -11,7 +11,7 @@
     <!--"Геометрика" project-->
     <url>
         <loc>https://alexanderzotin.github.io/forest-union/geometrics/summary.html</loc>
-        <lastmod>2025-04-08</lastmod>
+        <lastmod>2025-04-12</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
