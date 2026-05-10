@@ -114,8 +114,9 @@ p {
 }
 
 .thesis {
-	display: block;
-	min-width: min(35vw, 275px);
+    display: block;
+    overflow: hidden !important;    
+    min-width: min(300px, 25vw);
 }
 
 .separator {
