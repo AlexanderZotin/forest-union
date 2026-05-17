@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Прямоугольные треугольники и признаки их равенства | "Геометрика"</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./../../apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./../../favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./../../favicon-16x16.png">
+    <link rel="manifest" href="./../../site.webmanifest">
+    <link rel="stylesheet" href="./../../styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <main class="main-content">
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <img src = "./../../images/logo-img.jpg" id = "main-logo">
+                    <h1 class="hero-title">Прямоугольные треугольники и признаки их равенства</h1>
+                    <p class="hero-text">Часто прямоугольный треугольник в задаче — ключ к решению.</p><br>
+                    <p>Создано <a class = "outer-link" href = "./../../index.html">объединением "Лес" <i class="fas fa-external-link-alt"></i></a></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section about">
+            <div class="container">
+                <div class="about-content">
+                    <span class = "thesis"><span class = "definition">Определение 31:</span>
+                    Гипотенуза — сторона прямоугольного треугольника, лежащая напротив прямого угла. 
+                    </span>
+                    <span class = "thesis"><span class = "definition">Определение 32:</span>
+                    Катеты — стороны прямоугольного треугольника, образующие прямой угол.
+                    </span>
+                    <span class = "thesis"><span class = "theorem">Теорема 54:</span>
+                    В прямоугольном треугольнике гипотенуза всегда больше катета.
+                    </span>
+                    <span class = "thesis"><span class = "theorem">Теорема 55:</span>
+                    Катет, лежащий напротив угла в 30°, равен половине гипотенузы.
+                    </span>
+                    <figure class = "picture-wrapper" style = "float: left;">
+                       <img class = "picture" src="./../../images/geometrics/7th-class/picture-29.png">
+                       <figcaption>
+                           Рис. 29 к теореме 55 и её обоснованию.
+                       </figcaption>
+                    </figure>
+                    <span class = "thesis"><u><strong>Обоснование теоремы</strong></u></span>
+                    <span class = "thesis">Дано: △ABC — прямоугольный; ∠ABC = 90°; ∠BCA = 30°.</span>
+                    <span class = "thesis">Доказать: AB = 0,5 * AC.</span>
+                    <span class = "thesis">Доказательство:</span>
+                    <span class = "thesis">Сделаем дополнительное построение: На луче [AB) отметим точку D так, чтобы AB = BD.</span>
+                    <span class = "thesis">1. Рассмотрим △ABC и △DBC:</span>
+                    <span class = "thesis">● AB = BD — по построению.</span>
+                    <span class = "thesis">● Сторона BC — общая.</span>
+                    <span class = "thesis">● ∠ABD — развёрнутый, ∠ABC = 90°. Значит, ∠DBC = ∠ABC = 90°.</span>
+                    <span class = "thesis">Из пунктов 1.1—1.3 следует, что △ABC = △DBC (по двум сторонам и углу между ними).</span>
+                    <span class = "thesis">2. Из равенства треугольников следует, что ∠DCB = ∠ACB = 30°, то есть ∠ACD = 60°.</span>
+                    <span class = "thesis">Так как сумма углов треугольника равна 180°, то ∠BAC + ∠BDC = 180° - ∠ACD = 180° - 60° = 120°. Из равенства △ABC и △DBC следует, что AC= DC, то есть углы ∠BAC и ∠BDC равны друг другу и градусная мера каждого 60°. Значит, △ACD — равносторонний.</span>
+                    <span class = "thesis">3. По условию AB = BD, то есть AB = 0,5 * AD. Так как AC = AD, то AB = 0,5 * AC, что и требовалось доказать.</span>
+                    <div class = "separator"></div>
+                    <span class = "thesis"><span class = "theorem">Теорема 56</span> (обратная к Теореме 55):
+                    Если катет прямоугольного треугольника равен половине гипотенузы, то угол, лежащий напротив этого катета, равен 30°.
+                    </span>
+                    
+                    <h2 class = "section-title">Признаки равенства прямоугольных треугольников</h2>
+                    <span class = "thesis"><span class = "theorem">Теорема 57</span> (по двум катетам):
+                    Если катеты одного прямоугольного треугольника соответственно равны катетам другого прямоугольного треугольника, то такие треугольники равны.
+                    </span>
+                    <span class = "thesis"><span class = "theorem">Теорема 58</span> (по гипотенузе и катету):
+                    Если гипотенуза и катет одного прямоугольного треугольника соответственно равны гипотенузе и катету другого прямоугольного треугольника, то такие треугольники равны.
+                    </span>
+                    <span class = "thesis"><span class = "theorem">Теорема 59</span> (по катету и прилежащему острому углу):
+                    Если катет и прилежащий острый угол одного прямоугольного треугольника соответственно равны катету и прилежащему острому углу другого прямоугольного треугольника, то такие треугольники равны.
+                    </span>
+                    <span class = "thesis"><span class = "theorem">Теорема 60</span> (по катету и противолежащему острому углу):
+                    Если катет и противолежащий острый угол одного прямоугольного треугольника соответственно равны катету и противолежащему острому углу другого прямоугольного треугольника, то такие треугольники равны.
+                    </span>
+                    <span class = "thesis"><span class = "theorem">Теорема 61</span> (по гипотенузе и острому углу):
+                    Если гипотенуза и острый угол прямоугольного треугольника соответственно равны гипотенузе и острому углу другого прямоугольного треугольника, то такие треугольники равны.
+                    </span>
+                </div>
+            </div> 
+        </section>
+    </main>
+
+    <div class="info-items-note">
+        <p><a href = "./../summary.html" class = "outer-link">Назад к содержанию <i class="fas fa-external-link-alt"></i></a></p><br>
+        <p>Нашли ошибку или неточность? Сообщите нам! Контакты можно найти на <a class = "outer-link" href="./../../index.html">главной странице <i class="fas fa-external-link-alt"></i></a>.</p>
+    </div>
+                
+    <footer class="footer">
+        <img src="./../../images/logo-img.jpg">
+        <span class="footer-social">
+            <a href="https://t.me/forest_with_dwarf" target="_blank" aria-label="Telegram" style = "text-decoration: none;">
+                <i class="fab fa-telegram"></i>
+            </a>
+        </span>
+        <br><br>
+       Объединение "Лес", © 2025 — 2026
+    </footer>
+</body>
+</html>

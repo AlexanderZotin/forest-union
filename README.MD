@@ -1,6 +1,7 @@
 # RU
 
 **🌲 Объединение "Лес" 🌳** — наше новое объединение учеников школы №12 г. Перми.
+
 В этом репозитории располагается  сайт объединения, 
 на котором Вы можете найти всю информацию о нас, нашей деятельности и наши контакты. 
 
@@ -11,6 +12,7 @@
 # EN
 
 **🌲 Forest Union 🌳** is our new union of students from school No. 12, Perm.
+
 This repository contains the website of the union,
 where you can find all information about us, our activities and our contacts.
 

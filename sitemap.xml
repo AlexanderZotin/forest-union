@@ -11,7 +11,7 @@
     <!--"Геометрика" project-->
     <url>
         <loc>https://alexanderzotin.github.io/forest-union/geometrics/summary.html</loc>
-        <lastmod>2026-05-10</lastmod>
+        <lastmod>2026-05-18</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -61,6 +61,12 @@
      <url>
         <loc>https://alexanderzotin.github.io/forest-union/geometrics/7th-class/triangle-angles-and-exterior-angle.html</loc>
         <lastmod>2026-05-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+     <url>
+        <loc>https://alexanderzotin.github.io/forest-union/geometrics/7th-class/right-triangles.html</loc>
+        <lastmod>2026-05-18</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
