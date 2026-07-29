@@ -389,4 +389,8 @@ figcaption {
     .info-items-grid {
         grid-template-columns: 1fr;
     }
+    
+    .thesis {
+        min-width: 50vw;
+    }
 }
