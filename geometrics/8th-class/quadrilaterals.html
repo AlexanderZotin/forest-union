@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Четырёхугольники | "Геометрика"</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./../../apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./../../favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./../../favicon-16x16.png">
+    <link rel="manifest" href="./../../site.webmanifest">
+    <link rel="stylesheet" href="./../../styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <main class="main-content">
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <img src = "./../../images/logo-img.jpg" id = "main-logo">
+                    <h1 class="hero-title">Четырёхугольники</h1>
+                    <p class="hero-text">Небольшое введение и общая информация.</p><br>
+                    <p>Создано <a class = "outer-link" href = "./../../index.html">объединением "Лес" <i class="fas fa-external-link-alt"></i></a></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section about">
+            <div class="container">
+                <div class="about-content">
+                    <span class = "thesis"><span class = "definition">Определение 43: </span>
+                    Четырёхугольник — это геометрическая фигура, 
+                    состоящая из четырёх точек, соединённых четырьмя отрезками;
+                     <u>причём никакие два соседних отрезка не лежат на одной прямой и 
+                     никакие два несоседних отрезка не имеют общих точек.</u>
+                    </span>
+                    <figure class = "picture-wrapper" style = "float: left;">
+                       <img class = "picture" src="./../../images/geometrics/8th-class/picture-41.png">
+                       <figcaption>
+                           Рис. 41 к определению 43. ABCD, EFGH, IJKL и MNOP — четырёхугольники.
+                       </figcaption>
+                    </figure>
+                    <figure class = "picture-wrapper" style = "float: left;">
+                       <img class = "picture" src="./../../images/geometrics/8th-class/picture-42.png">
+                       <figcaption>
+                           Рис. 42. ABCD и EFGH — <strong><u>НЕ</u></strong> четырёхугольники.
+                       </figcaption>
+                    </figure>
+                    <span class = "thesis"><span class = "definition">Определение 44: </span>
+                    Два четырёхугольника называются равными, если их можно совместить наложением.
+                    </span>
+                    <span class = "thesis"><span class = "definition">Определение 45: </span>
+                    Отрезок, соединяющий противолежащие вершины четырёхугольника, называют диагональю.
+                    </span>
+                    <div class = "separator"></div>
+                    <figure class = "picture-wrapper" style = "float: left;">
+                       <img class = "picture" src="./../../images/geometrics/8th-class/picture-43.png">
+                       <figcaption>
+                           Рис. 43. ABCD — невыпуклый четырёхугольник (∠ADC > 180°), EFGH — выпуклый четырёхугольник.  
+                       </figcaption>
+                    </figure> 
+                    <span class = "thesis"><span class = "definition">Определение 46: </span>
+                    Невыпуклый четырёхугольник — это четырёхугольник, в котором есть угол, градусная мера которого больше развёрнутого угла.
+                    </span>          
+                    <span class = "thesis"><i>Примечание: угол, градусная мера которого больше 180°, внешне
+                    может быть похож на острый. Такие углы не рассматривались 
+                    <a class = "outer-link" href = "./../7th-class/angles.html">в седьмом классе <i class="fas fa-external-link-alt"></i></a>.
+                    Они "вогнуты" в четырёхугольник (или в другой многоугольник), и рассматривать их нужно со внутренней области фигуры.</i>
+                    </span>                    
+                    <span class = "thesis"><span class = "definition">Определение 47: </span>
+                    Выпуклый четырёхугольник — это четырёхугольник, в котором все углы меньше развёрнутого.
+                    </span>
+                     
+                    <div class = "separator"></div>
+                    <span class = "thesis"><span class = "theorem">Теорема 75: </span>
+                    Сумма углов четырёхугольника равна 360°.</span>
+                    <figure class = "picture-wrapper" style = "float: left;">
+                       <img class = "picture" src="./../../images/geometrics/8th-class/picture-44.png">
+                       <figcaption>
+                           Рис. 44 к обоснованию теоремы 75.
+                       </figcaption>
+                    </figure>
+                    <span class = "thesis"><u><strong>Обоснование теоремы</strong></u></span>
+                    <span class = "thesis">Дано: ABCD — четырёхугольник.</span>
+                    <span class = "thesis">Доказать: ∠DAB + ∠ABC + ∠BCD + ∠CDA = 360°.</span>
+                    <span class = "thesis">Доказательство:</span>
+                    <span class = "thesis">1. Сделаем дополнительное построение: проведём диагональ BD.</span>
+                    <span class = "thesis">2. Сумма углов любого треугольника равна 180°.</span>
+                    <span class = "thesis">3. Сумма углов четырёхугольника ABCD равна сумме углов △ABD и △CBD, 
+                    ведь эти два треугольника получились после проведения диагонали в ABCD.
+                    Значит, ∠DAB + ∠ABC + ∠BCD + ∠CDA = 180° + 180° = 360°, что и требовалось доказать.</span>
+                    <div class = "separator"></div>
+                    <span class = "thesis"><span class = "theorem-corollary">Теорема-следствие 6: </span>
+                    В четырёхугольнике только один из углов может быть больше развёрнутого.
+                    </span>
+                    <span class = "thesis"><span class = "theorem">Теорема 76 </span>(теорема о неравенстве четырёхугольника):
+                    Длина любой стороны четырёхугольника меньше суммы длин трёх других сторон.</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="info-items-note">
+        <p><a href = "./../summary.html" class = "outer-link">Назад к содержанию <i class="fas fa-external-link-alt"></i></a></p><br>
+        <p>Нашли ошибку или неточность? Сообщите нам! Контакты можно найти на <a class = "outer-link" href="./../../index.html">главной странице <i class="fas fa-external-link-alt"></i></a>.</p>
+    </div>
+                
+    <footer class="footer">
+        <img src="./../../images/logo-img.jpg">
+        <span class="footer-social">
+            <a href="https://t.me/forest_with_dwarf" target="_blank" aria-label="Telegram" style = "text-decoration: none;">
+                <i class="fab fa-telegram"></i>
+            </a>
+        </span>
+        <br><br>
+       Объединение "Лес", © 2025 — 2026
+    </footer>
+</body>
+</html>
